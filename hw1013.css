@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+  width:800px;
+  margin:0 auto;
+}
+.header{
+  height: 100px;
+  background:url(../images/back.jpg) repeat-x;
+  margin:0 0 10px 0;
+  position: relative;
+}
+.header h1{
+  margin: 0 auto;
+  padding-left: 5px;
+  float: left;
+  position: relative;
+}
+.header div.header_right {
+	float: left;
+	width: 440px;
+	margin:0 auto;
+	position:relative; 
+}
+.header div.menu {
+	float: left;
+	margin:0 auto;
+}
+.header div.menu ul {
+margin: 0 auto;
+padding: 0 auto;
+float: left;
+}
+.header div.menu li {
+display: inline;
+padding-left: 5px;
+margin: 0 auto;
+float: left;
+text-align:center;
+}
+.header div.menu li a{
+	display: block;
+}
+.content {
+	margin: 10px 0 10px 0;
+	background:white;
+	position: relative;
+}
+.content div.left{
+	width:480px;
+	float: left;
+	height:200px;
+	margin-left:10px; 
+	margin-right: 10px; 
+}
+.content div.left h2{
+	margin: 0;
+	float: left;
+	font-size: 25px;
+	color:#3289EC;
+	z-index: 4;
+	text-align: left;
+	line-height: 200%;
+	text-decoration:underline
+}
+.content div.left p{
+	margin: 0;
+	float: left;
+	text-align: left;
+}
+.right{
+	width:245px;
+	height:200px;
+	float: left;
+	margin-right:15px;
+	margin-bottom: 20px; 
+	box-shadow:0px 4px 10px 0px #cccccc;
+	text-align:center;
+}
+.right div.name{
+	margin-left:0; 
+	float:left;
+}
+.right div.price{
+	margin-left:0px;
+	margin-right:0px;
+	float:right;
+}
+.footer {
+	clear:left;
+	background: linear-gradient(rgb(165, 165, 165) 0%, rgb(255, 255, 255) 1%, rgb(255, 255, 255) 21%, rgb(255, 255, 255) 74%, rgb(229, 229, 229) 100%);
+	height:350px;
+	margin: 10px 0 0 10px;
+}
+#box{
+	width: 220px;
+	height: 300px;
+	margin: 12px 12px;
+	background: linear-gradient(rgb(255, 255, 255) 1%, rgb(206, 230, 255) 63%, rgb(207, 228, 250) 100%);
+	float: left;
+	border:2px #CFE4FA solid;border-radius:10px;
+	text-align:center;
+}
+#box h3{
+	text-align:center;
+	font-size: 20px;
+}
+#box p{
+	margin: 10px auto auto 10px ;
+	text-align:center;
+}
+
+
+
